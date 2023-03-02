@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.kakaouo.mods.tickrate.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MinecraftServerMixin",
+    "client.TimerMixin"
+  ],
+  "client": [
+    "client.MinecraftMixin",
+    "client.SoundEngineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
